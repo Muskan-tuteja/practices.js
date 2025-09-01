@@ -17,3 +17,22 @@
 //  let h1 = document.querySelector(".color")
 //  h1.innerText = "background color:" + randomColor 
 // }
+
+
+let count = 0 
+ function increase(){
+  count++
+  let p = document.querySelector("#count")
+  p.innerText = count
+ }
+ function decrease(){
+  count--
+  let p = document.querySelector("#count")
+  p.innerText = count
+ }
+ function reset(){
+  count = 0
+  let p = document.querySelector("#count")
+  p.innerText = count
+ }
+

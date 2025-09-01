@@ -1,0 +1,26 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    /* #count {
+      font-size: 40px;
+      margin: 20px;
+      color: darkblue;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+    } */
+        p {
+      font-size: 20px;
+      color: darkgreen;
+    }
+    button {
+      font-size: 18px;
+      padding: 8px 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
