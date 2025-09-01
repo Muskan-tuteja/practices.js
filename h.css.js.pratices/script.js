@@ -19,20 +19,35 @@
 // }
 
 
-let count = 0 
- function increase(){
-  count++
-  let p = document.querySelector("#count")
-  p.innerText = count
- }
- function decrease(){
-  count--
-  let p = document.querySelector("#count")
-  p.innerText = count
- }
- function reset(){
-  count = 0
-  let p = document.querySelector("#count")
-  p.innerText = count
- }
+// let count = 0 
+//  function increase(){
+//   count++
+//   let p = document.querySelector("#count")
+//   p.innerText = count
+//  }
+//  function decrease(){
+//   count--
+//   let p = document.querySelector("#count")
+//   p.innerText = count
+//  }
+//  function reset(){
+//   count = 0
+//   let p = document.querySelector("#count")
+//   p.innerText = count
+//  }
+
+function clickSubmit() {
+  // id exactly same honi chahiye
+  let text = document.querySelector(".mytext");
+  let buttons = document.querySelector("button");
+
+  if (text.style.display === "none") {
+    text.style.display = "block";
+    buttons.innerText = "Hide";
+  } else {
+    text.style.display = "none";
+    buttons.innerText = "Show";
+  }
+}
+
 
