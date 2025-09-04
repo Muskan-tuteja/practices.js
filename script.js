@@ -85,7 +85,48 @@
 // console.log(12>44 || 12>5 || 12<4)
 
 // && or ||
-console.log(78<12 || 23>89 && 23<90)
-console.log(78<12 || 23>89 || 23<90)
+// console.log(78<12 || 23>89 && 23<90)
+// console.log(78<12 || 23>89 || 23<90)
+
+// let i = 11
+// i = i++ 
+// i = ++i
+// console.log(i)
   
+// let a = 11
+// let b = 22
+// let c = a+b+a++ + b++ + ++a + ++b
+// console.log("a=" +a )
+// console.log("b=" +b )
+// console.log("c=" +c )
+
+// let a = true//1(true ko hmesha 1 mante h )
+// a++
+// console.log(a)
+
+// let b = false
+// b++
+// console.log(b)
+
+// let a = 11++//(varible par hn ++ laga saki h but number par ni laga sakte)
+// console.log(a)
+
+// let a = 10
+// let b = ++(a++)
+
+// console.log(b)
+
+// Math function
+
+// console.log(Math.round(10.6))//1 to 4 hoga to 10 hi hoga but jase hi (5 hoga to 11 hojaye ga )
+
+// console.log(Math.ceil(11.5))//(jase hi .1 ko hoga 12 hojye ga )
+
+// console.log(Math.trunc(20.56))
+// console.log(Math.floor(20.56))
+// console.log(Math.pow(2,4))
+
+// console.log(Math.sqrt(9))
+console.log(Math.cbrt(9))
+
 
