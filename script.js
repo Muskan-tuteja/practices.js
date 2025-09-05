@@ -127,6 +127,44 @@
 // console.log(Math.pow(2,4))
 
 // console.log(Math.sqrt(9))
-console.log(Math.cbrt(9))
+// console.log(Math.cbrt(9))
+// console.log(Math.abs(-12))
+// console.log(Math.max(23,45,67))
+// console.log(Math.min(23,45,67))
+
+// console.log(Math.random()) //0 to 1
+
+// console.log(Math.floor((Math.random()*9000)+1000))
+
+// let a = 23.5679
+// console.log(a.toFixed(6))
 
 
+// let a = 5
+// let b = 3
+
+// console.log(a*b)
+// console.log(2*(a+b))
+
+// let a =5
+// let b = 4
+// let c= 3
+
+// let s = (a+b+c)/2
+// console.log(Math.sqrt(s * (s-a) * (s-b) * (s-c)))
+
+// let r = 12
+// console.log(Math.floor((2*Math.PI*r).toFixed(2)))
+
+
+// ..................conditional Statement.............................
+
+let ans = prompt("my name is muskan and age")
+if(isNaN(ans)){
+  console.log("not input")
+}
+else if(ans>=18){
+  console.log("you are true")
+}else{
+  console.log("you are false")
+}
