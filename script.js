@@ -347,7 +347,6 @@
 //     console.log("hi");
 //     break;
 
-
 //     default: console.log("heii")
 // }
 // let num = 0.1 + 0.2;
@@ -367,3 +366,54 @@
 //     console.log("heii");
 // }
 
+// loop...................
+// for (let index = 0; index < 500; index++) {
+//  console.log("helo muskan")
+
+// }
+// for (let index = 1; index <11; index++) {
+//  console.log(index)
+
+// }
+// for (let index = 10; index>0; index--) {
+//  console.log(index)
+
+// }
+
+// let i = 1
+// for(;i<=11; i++){
+//   console.log(i)
+
+// }
+// console.log(i + "fail")
+
+// let ans = Number(prompt("kha se a arehe ho?"))
+
+// if(isNaN(ans)){
+//   console.log("invalid")
+// }
+// else{
+//   if(ans>0){
+//     console.log("yes")
+//   }
+//   else{
+//     console.log("false")
+//   }
+// }
+
+// sum of n natural number
+let n = Number(prompt(" n value sum of kha se a arehe ho?"));
+
+if (isNaN(n)) {
+  console.log("invalid");
+} else {
+  if (n > 0) {
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+      sum = sum + i;
+    }
+    console.log(sum);
+  } else {
+    console.log("false");
+  }
+}
