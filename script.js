@@ -402,18 +402,57 @@
 // }
 
 // sum of n natural number
+// let n = Number(prompt(" n value sum of kha se a arehe ho?"));
+
+// if (isNaN(n)) {
+//   console.log("invalid");
+// } else {
+//   if (n > 0) {
+//     let sum = 0;
+//     for (let i = 1; i <= n; i++) {
+//       sum = sum + i;
+//     }
+//     console.log(sum);
+//   } else {
+//     console.log("false");
+//   }
+// }
+
+
+// sum of n natural number
+// let n = Number(prompt(" n value sum of kha se a arehe ho?"));
+
+// if (isNaN(n)) {
+//   console.log("invalid");
+// } else {
+//   if (n > 0) {
+//     let fact = 1;
+//     for (let i = 1; i <= n; i++) {
+//       fact = fact * i;
+//     }
+//     console.log(fact);
+//   } else {
+//     console.log("false");
+//   }
+// }
+
+
+// sum of n natural number
 let n = Number(prompt(" n value sum of kha se a arehe ho?"));
 
 if (isNaN(n)) {
   console.log("invalid");
 } else {
   if (n > 0) {
-    let sum = 0;
+    let fact = 1;
     for (let i = 1; i <= n; i++) {
-      sum = sum + i;
+      fact = fact * i;
     }
-    console.log(sum);
+    console.log(fact);
   } else {
     console.log("false");
   }
 }
+
+
+
