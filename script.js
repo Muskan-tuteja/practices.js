@@ -418,6 +418,22 @@
 //   }
 // }
 
+// sum of n natural number
+// let n = Number(prompt(" n value sum of kha se a arehe ho?"));
+
+// if (isNaN(n)) {
+//   console.log("invalid");
+// } else {
+//   if (n > 0) {
+//     let fact = 1;
+//     for (let i = 1; i <= n; i++) {
+//       fact = fact * i;
+//     }
+//     console.log(fact);
+//   } else {
+//     console.log("false");
+//   }
+// }
 
 // sum of n natural number
 // let n = Number(prompt(" n value sum of kha se a arehe ho?"));
@@ -436,23 +452,56 @@
 //   }
 // }
 
+// Factors of number
 
-// sum of n natural number
-let n = Number(prompt(" n value sum of kha se a arehe ho?"));
+// let par = prompt("kaha tak add karwaaage?")
 
-if (isNaN(n)) {
-  console.log("invalid");
-} else {
-  if (n > 0) {
-    let fact = 1;
-    for (let i = 1; i <= n; i++) {
-      fact = fact * i;
+// if(par === null){
+//   console.log("concelled")
+// }
+// else{
+//   let n = Number(par)
+//   if(isNaN(n)){
+//  console.log("Invalid Input")
+//   }
+//   else{
+//     if(n>0){
+//       for(var i = 1; i<=Math.floor(n/2); i++){
+//         if(n%i === 0){
+//           console.log(i)
+//         }
+
+//       }
+//       console.log(n)
+//     }
+//     else{
+//       console.log("-ve 0")
+//     }
+//   }
+
+// }
+
+// prime mumber
+let par = prompt("kaha talk jaoo ge?")
+
+if(par === null){
+  console.log("cancelled")
+}
+else{
+  let n = Number(par)
+  if(isNaN(n)){
+    console.log("invalid input")
+  }
+  else{
+    if(n > 0){
+      let primeHai = true
+      for(var i =2; i<=Math.floor(n/2); i++){
+        if(n%i === 0){
+          primeHai = false
+          break;
+        }
+      }
+      console.log(primeHai )
     }
-    console.log(fact);
-  } else {
-    console.log("false");
   }
 }
-
-
-
